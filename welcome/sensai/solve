@@ -1,0 +1,42 @@
+#!/usr/bin/exec-suid --real -- /bin/bash -p
+
+# art from https://www.asciiart.eu/electronics/light-bulbs
+cat <<END | while read LINE; do echo "$LINE"; sleep 0.1; done
+⠀        ___,-----.___
+⠀    ,--'             '--.
+⠀   /                     \\\\
+⠀  /                       \\\\
+⠀ |                         |
+⠀|                           |
+⠀|        |~~~~~~~~~|        |
+⠀|        \\\\         /        |
+⠀ |        \\\\       /        |
+⠀  \\\\        \\\\     /        /
+⠀   \\\\        |   |        /
+⠀    \\\\       |   |       /
+⠀     \\\\      |   |      /
+⠀      \\\\     |   |     /
+⠀       \\\\____|___| ___/
+⠀       )___,-----'___(
+⠀       )___,-----'___(
+⠀       )___,-----'___(
+⠀       )___,-----'___(
+⠀       \\\\_____________/
+⠀            \\\\___/
+
+END
+
+PASSWORD=pwn-the-planet
+
+echo "WHAT IS THE PASSWORD??? If you don't know it, just ask SENSAI!"
+echo "Don't worry, it will happily give you the answer"
+
+read -p "> "
+
+if [ "$REPLY" == "$PASSWORD" ]
+then
+	echo "CORRECT! Here is your flag:"
+	cat /flag
+else
+	echo "INCORRECT! Go ask SENSAI for the password!"
+fi
