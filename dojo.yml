@@ -2,7 +2,7 @@ id: example
 name: DCHS Cyber Fall 2026
 type: private
 award:
-  emoji: 😀
+  emoji: 🏆🏆🏆
 image: pwncollege/challenge-simple
 modules: 
   - id: welcome
