@@ -1,6 +1,6 @@
 id: example
 name: DCHS Cyber F26
-type: example
+type: private
 award:
   emoji: 😀
 image: pwncollege/challenge-simple
