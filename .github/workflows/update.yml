@@ -11,4 +11,4 @@ jobs:
       - uses: pwncollege/dojo-update@v1
         with:
           dojo: example~6c5fcc86
-          update_code: ${{ secrets.UPDATE_CODE }}
+          update_code: https://pwn.college/dojo/example~6c5fcc86/update/254a8db77a98d864df4311cacf8026b1
