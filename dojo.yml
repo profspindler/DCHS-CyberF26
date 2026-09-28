@@ -4,9 +4,6 @@ type: example
 award:
   emoji: 😀
 image: pwncollege/challenge-simple
-modules:
-  - id: hello
-  - id: world
-  - id: demo
-  - id: lectures
+modules: 
   - id: welcome
+  - id: linux-luminarium
