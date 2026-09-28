@@ -5,7 +5,6 @@ award:
   emoji: 😀
 image: pwncollege/challenge-simple
 modules: 
-  modules:
   - id: welcome
 
   - import:
